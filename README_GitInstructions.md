@@ -12,9 +12,9 @@ The following instructions need to be followed any time a new local repository i
 
    * Configure your username and email:
 
-   `git config --global user.name "<YourUsername>"`
+   `git config --global user.name "feelthebreeze"`
 
-   `git config --global user.email "<YourEmail>"`
+   `git config --global user.email "filippobezzi1@gmail.com"`
 
    Your git configuration is stored in `~/.gitconfig`, a file that you can always edit by hand.
 
@@ -32,7 +32,7 @@ The following instructions need to be followed any time a new local repository i
 
   * The default branch is `main`. You should now create your development branch where you can edit and run the code. 
     
-   `git checkout -b <BranchName>`
+   `git checkout -b lab`
    
   where <BranchName> is the name of your development branch
     
@@ -48,7 +48,7 @@ The following instructions need to be followed any time a new local repository i
    
    * And then in your development branch, if any:
    
-   `git checkout <BranchName>`
+   `git checkout lab`
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
