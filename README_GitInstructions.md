@@ -30,7 +30,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git fetch upstream`
 
-  * The default branch is `main`. You should now create your development branch where you can edit and run the code. 
+  * The default branch is `main`. You should now create your development branch, i.e. "lab", where you can edit and run the code. 
     
    `git checkout -b lab`
    
@@ -50,7 +50,9 @@ The following instructions need to be followed any time a new local repository i
    
    `git checkout lab`
 
-   * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
+   * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as 
+   a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on 
+   GitHub, you need to push the local version to your remote repository.
 
    * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
   
